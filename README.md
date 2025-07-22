@@ -1,4 +1,4 @@
-<img width="1647" height="908" alt="Screenshot 2025-07-22 at 1 55 46 PM" src="https://github.com/user-attachments/assets/bb422605-0111-44fa-b9c6-e906d25153da" /># Delta-Lake-Data-Engineering-Pipeline
+# Delta-Lake-Data-Engineering-Pipeline
 A comprehensive data engineering solution that demonstrates automated data ingestion, Delta Lake table management, version control, and email notifications using PySpark and Delta Lake on Azure Databricks.
 
 
