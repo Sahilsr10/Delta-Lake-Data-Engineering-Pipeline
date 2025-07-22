@@ -11,6 +11,9 @@ This project implements a complete data pipeline that:
 - Provides automated scheduling and email notifications
 - Demonstrates best practices for data engineering workflows
 
+  
+<img width="1589" height="867" alt="Screenshot 2025-07-22 at 2 04 03 PM" src="https://github.com/user-attachments/assets/11073bd2-2603-4cd9-9b22-21f6c2a5a580" />
+
 ## 🏗️ Architecture
 
 ```
@@ -26,6 +29,7 @@ This project implements a complete data pipeline that:
 │   Processing    │    │   Control        │    │   Reporting     │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
+<img width="1643" height="863" alt="Screenshot 2025-07-22 at 2 03 40 PM" src="https://github.com/user-attachments/assets/fc125330-5969-4918-9ebf-7a6d077dc458" />
 
 ## 📋 Features
 
@@ -134,6 +138,9 @@ Demonstrates version control and incremental data appending.
 # Run the complete automated pipeline
 %run "./step3_scheduled_pipeline"
 ```
+<img width="1647" height="879" alt="Screenshot 2025-07-22 at 1 59 31 PM" src="https://github.com/user-attachments/assets/7caaa714-8073-4e21-8f25-0ba72beab6b4" />
+
+
 Executes the full pipeline with email notifications.
 <img width="1654" height="904" alt="Screenshot 2025-07-22 at 1 55 25 PM" src="https://github.com/user-attachments/assets/1751de9f-9434-4c6a-8002-fdcfe9b503f4" />
 <img width="1648" height="912" alt="Screenshot 2025-07-22 at 1 56 03 PM" src="https://github.com/user-attachments/assets/064efcb3-0149-4da0-915f-a3d409f57d8c" />
