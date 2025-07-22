@@ -207,8 +207,6 @@ Sends HTML email notification.
 1. **Create a new job** in Databricks workspace
 2. **Set schedule** to run every 5 minutes:
    ```
-   Cron Expression: */5 * * * *
-   ```
 3. **Configure cluster** with Delta Lake runtime
 4. **Add notebook** path to the job
 
@@ -255,7 +253,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+-  *Initial work* - ((https://github.com/Sahilsr10))
 
 ## 🙏 Acknowledgments
 
