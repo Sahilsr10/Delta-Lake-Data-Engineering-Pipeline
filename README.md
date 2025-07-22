@@ -1,4 +1,4 @@
-# Delta-Lake-Data-Engineering-Pipeline
+<img width="1647" height="908" alt="Screenshot 2025-07-22 at 1 55 46 PM" src="https://github.com/user-attachments/assets/bb422605-0111-44fa-b9c6-e906d25153da" /># Delta-Lake-Data-Engineering-Pipeline
 A comprehensive data engineering solution that demonstrates automated data ingestion, Delta Lake table management, version control, and email notifications using PySpark and Delta Lake on Azure Databricks.
 
 
@@ -115,7 +115,10 @@ delta-lake-pipeline/
 # Run the initial setup script
 %run "./step1_initial_setup"
 ```
+
 Creates the initial Delta table with 5 sample records.
+<img width="1651" height="899" alt="Screenshot 2025-07-22 at 1 51 59 PM" src="https://github.com/user-attachments/assets/76a52ac8-c376-4df8-8763-83ed85a8571c" />
+<img width="1653" height="870" alt="Screenshot 2025-07-22 at 1 53 15 PM" src="https://github.com/user-attachments/assets/2c272d47-1166-4722-a083-2925992b20de" />
 
 #### Step 2: Incremental Operations
 ```python
@@ -123,6 +126,8 @@ Creates the initial Delta table with 5 sample records.
 %run "./step2_incremental_ops"
 ```
 Demonstrates version control and incremental data appending.
+<img width="1656" height="844" alt="Screenshot 2025-07-22 at 1 53 56 PM" src="https://github.com/user-attachments/assets/11f27947-ee18-437b-ab0f-b2e7d45b2a76" />
+<img width="1649" height="833" alt="Screenshot 2025-07-22 at 1 54 34 PM" src="https://github.com/user-attachments/assets/41f7ff3e-f159-42cb-a0f1-daa05c853044" />
 
 #### Step 3: Automated Pipeline
 ```python
@@ -130,6 +135,10 @@ Demonstrates version control and incremental data appending.
 %run "./step3_scheduled_pipeline"
 ```
 Executes the full pipeline with email notifications.
+<img width="1654" height="904" alt="Screenshot 2025-07-22 at 1 55 25 PM" src="https://github.com/user-attachments/assets/1751de9f-9434-4c6a-8002-fdcfe9b503f4" />
+<img width="1648" height="912" alt="Screenshot 2025-07-22 at 1 56 03 PM" src="https://github.com/user-attachments/assets/064efcb3-0149-4da0-915f-a3d409f57d8c" />
+<img width="1640" height="911" alt="Screenshot 2025-07-22 at 1 56 32 PM" src="https://github.com/user-attachments/assets/591c4af9-7a98-46a0-8c51-08904b4d9ca9" />
+<img width="1640" height="720" alt="Screenshot 2025-07-22 at 1 56 53 PM" src="https://github.com/user-attachments/assets/11f0554d-5b04-499c-b792-8a785771bae4" />
 
 ## 📊 Sample Output
 
@@ -143,6 +152,7 @@ Pipeline execution finished.
 
 ### Email Notification
 <img width="1652" height="905" alt="Screenshot 2025-07-22 at 1 26 15 PM" src="https://github.com/user-attachments/assets/6d6164b5-0396-45db-8dc6-70b02b0b84cb" />
+<img width="1653" height="914" alt="Screenshot 2025-07-22 at 1 47 16 PM" src="https://github.com/user-attachments/assets/8af140f6-07e1-4a16-bdcf-d064890ddd07" />
 
 
 The email includes:
