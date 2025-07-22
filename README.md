@@ -77,18 +77,14 @@ This project implements a complete data pipeline that:
    cd delta-lake-pipeline
    ```
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. **Configure email credentials** in Databricks Secrets:
+2. **Configure email credentials** in Databricks Secrets:
    ```python
    # In Databricks
    dbutils.secrets.put(scope="email_creds", key="app-password", string_value="your-gmail-app-password")
    ```
 
-4. **Update configuration** in each script:
+3. **Update configuration** in each script:
    ```python
    SENDER_EMAIL = "your-email@gmail.com"
    RECIPIENT_EMAIL = "recipient@gmail.com"
@@ -98,29 +94,20 @@ This project implements a complete data pipeline that:
 ### Usage
 
 #### Step 1: Initial Setup
-```python
-# Run the initial setup script
-%run "./step1_initial_setup"
-```
+
 
 Creates the initial Delta table with 5 sample records.
 <img width="1651" height="899" alt="Screenshot 2025-07-22 at 1 51 59 PM" src="https://github.com/user-attachments/assets/76a52ac8-c376-4df8-8763-83ed85a8571c" />
 <img width="1653" height="870" alt="Screenshot 2025-07-22 at 1 53 15 PM" src="https://github.com/user-attachments/assets/2c272d47-1166-4722-a083-2925992b20de" />
 
 #### Step 2: Incremental Operations
-```python
-# Run incremental operations
-%run "./step2_incremental_ops"
-```
+
 Demonstrates version control and incremental data appending.
 <img width="1656" height="844" alt="Screenshot 2025-07-22 at 1 53 56 PM" src="https://github.com/user-attachments/assets/11f27947-ee18-437b-ab0f-b2e7d45b2a76" />
 <img width="1649" height="833" alt="Screenshot 2025-07-22 at 1 54 34 PM" src="https://github.com/user-attachments/assets/41f7ff3e-f159-42cb-a0f1-daa05c853044" />
 
 #### Step 3: Automated Pipeline
-```python
-# Run the complete automated pipeline
-%run "./step3_scheduled_pipeline"
-```
+
 <img width="1647" height="879" alt="Screenshot 2025-07-22 at 1 59 31 PM" src="https://github.com/user-attachments/assets/7caaa714-8073-4e21-8f25-0ba72beab6b4" />
 
 
