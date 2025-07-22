@@ -58,24 +58,7 @@ This project implements a complete data pipeline that:
 | **Data Generation** | Faker | 18.0+ |
 | **Email Service** | SMTP (Gmail) | Built-in |
 
-## 📁 Project Structure
 
-```
-delta-lake-pipeline/
-├── src/
-│   ├── step1_initial_setup.py      # Initial table creation and setup
-│   ├── step2_incremental_ops.py    # Incremental operations and versioning
-│   └── step3_scheduled_pipeline.py # Complete automated pipeline
-├── config/
-│   └── pipeline_config.py          # Configuration parameters
-├── docs/
-│   ├── architecture.md             # Detailed architecture documentation
-│   └── deployment.md               # Deployment instructions
-├── tests/
-│   └── test_pipeline.py            # Unit tests
-├── requirements.txt                # Python dependencies
-└── README.md                       # This file
-```
 
 ## 🚦 Quick Start
 
