@@ -142,7 +142,8 @@ Pipeline execution finished.
 ```
 
 ### Email Notification
-![Email Sample](docs/images/email-sample.png)
+<img width="1652" height="905" alt="Screenshot 2025-07-22 at 1 26 15 PM" src="https://github.com/user-attachments/assets/6d6164b5-0396-45db-8dc6-70b02b0b84cb" />
+
 
 The email includes:
 - Professional HTML formatting
@@ -265,7 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions and support:
-- 📧 Email: your-email@domain.com
+- 📧 Email: sahilsrivastava773@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/yourusername/delta-lake-pipeline/issues)
 - 📚 Documentation: [Project Wiki](https://github.com/yourusername/delta-lake-pipeline/wiki)
 
