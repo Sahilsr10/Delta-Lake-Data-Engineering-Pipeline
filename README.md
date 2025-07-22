@@ -224,7 +224,6 @@ Sends HTML email notification.
 
 1. **Create a new job** in Databricks workspace
 2. **Set schedule** to run every 5 minutes:
-   ```
 3. **Configure cluster** with Delta Lake runtime
 4. **Add notebook** path to the job
 
@@ -257,13 +256,7 @@ Monitor through:
 - Email delivery confirmations
 - Delta table history tracking
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 
 ## 👥 Authors
